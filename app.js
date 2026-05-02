@@ -1,7 +1,7 @@
 //var APPID = "9cf5037800d9daeff74f63485157a63b";
-//var APPID = "7d7767c42921d02a1d86ae54cbbdb852";
+var APPID = "7d7767c42921d02a1d86ae54cbbdb852";
 //var APPID = 4cd36ece9517406aec0d5a59522adc5f 
-var APPID ="4cd36ece9517406aec0d5a59522adc5f" ;
+//var APPID ="4cd36ece9517406aec0d5a59522adc5f" ;
 var temp;
 var loc;
 var icon; 
@@ -10,7 +10,7 @@ var wind;
 var direction;
 
 function updateByZip(zip){
-	var url = "http://api.openweathermap.org/data/2.5/weather?" + "Zip=" + zip + "&appid=" + APPID;
+	var url = "http://api.openweathermap.org/data/2.5/weather?" + "Zip=" + zip + "&APPID=" + APPID;
 	sendRequest(url);
 }
 function updateByGeo(lat, lon){
