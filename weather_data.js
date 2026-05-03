@@ -1,4 +1,4 @@
-"use strict";
+"use strict" ;
 
 function Weather(cityName, description) {
     this.cityName = cityName;
