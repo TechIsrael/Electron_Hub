@@ -1,4 +1,4 @@
-"use strict";
+"use strict" ;
 var APPID ="4cd36ece9517406aec0d5a59522adc5f" ;
 var temp;
 var loc;
