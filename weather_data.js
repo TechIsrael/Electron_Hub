@@ -1,4 +1,4 @@
-"use strict" ;
+"use strict";
 
 function Weather(cityName, description) {
     this.cityName = cityName;
@@ -13,4 +13,4 @@ Object.defineProperty(Weather.prototype, 'temperature', {
     set: function(value) {
         this._temperature = (value * 1.8 + 32).toFixed(2) + 'F.';
     }
-}); The Lord is my shepherd
+});
